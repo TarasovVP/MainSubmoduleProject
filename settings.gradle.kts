@@ -22,6 +22,7 @@ dependencyResolutionManagement {
 rootProject.name = "MainSubmoduleProject"
 include(":mainapp")
 include(":inner")
+
 /*var submodulesUpdated = false
 if (!submodulesUpdated) {
     if (!file("SubModuleProject").exists()) {
@@ -51,4 +52,3 @@ if (!submodulesUpdated) {
 
 include(":submoduleproject")
 project(":submoduleproject").projectDir = file("$rootDir/submoduleproject/app")
- 
